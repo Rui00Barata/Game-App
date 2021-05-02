@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etSceneID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="ID DE CENÁRIO"
+                android:inputType="number" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="QUESTÃO"
+                        android:maxHeight="150dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etOption1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="OPÇÃO 1"
+                        android:maxHeight="75dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etOption2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="OPÇÃO 2"
+                        android:maxHeight="75dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etOption3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="OPÇÃO 3"
+                        android:maxHeight="75dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etOption4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="OPÇÃO 4"
+                        android:maxHeight="75dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <EditText
+                android:id="@+id/etOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="OPÇÃO CORRETA"
+                android:inputType="number" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etWrongReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="RELATÓRIO DAS OPÇÕES ERRADAS"
+                        android:maxHeight="150dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etRightReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="RELATÓRIO DA OPÇÃO CORRETA"
+                        android:maxHeight="150dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
